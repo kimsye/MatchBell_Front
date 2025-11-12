@@ -7,8 +7,8 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dagger.hilt.android.AndroidEntryPoint
 import android.util.Log // Log.e 사용을 위한 import
-
-@AndroidEntryPoint // Hilt 전원 켜짐
+//
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
